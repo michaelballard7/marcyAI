@@ -1,0 +1,180 @@
+/* reset code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* background-color: #f7fdfe; */
+    background-color: black;
+}
+
+header nav{
+    height: 78px;
+    width: 70%;
+    margin: auto;
+    padding: 16px 10px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header li{
+    display: inline-block;
+    float: right;
+    width: 10%;
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+.highlight{
+    background-color: #0ebfdd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.highlight a{
+    color:#f7fdf3;
+}
+
+.logo{
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 0px;
+
+}
+
+header a{
+    text-decoration: none;
+    /* color: #82868f; */
+    color: white;
+}
+
+#our-mission{
+    height: 600px;
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1538251041490-6d69ea6ad775?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
+    background-repeat: no-repeat;
+}
+
+#our-mission .wrapper{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    bottom: 150px;
+    left: 10%;
+    text-align: center;
+    color: #f7fdf3;
+    font-size: 26px;
+    padding: 20px;
+}
+
+.wrapper h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#about{
+    height: 450px;
+    margin: auto;
+    position: relative;
+    background-color: white;
+
+}
+
+#about .wrapper{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    bottom: 150px;
+    left: 10%;
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    color: #82868f;
+}
+
+#about h2{
+    color: #0ebfdd;
+    font-size: 44px;
+}
+
+#team{
+    position: relative;
+    height: 600px;
+    background-color: #0ebfdd;
+}
+
+#team .wrapper {
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    left: 10%;
+    top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#team .wrapper h2 {
+    font-size: 44px;
+    margin-bottom: 60px;
+}
+
+#team-members{
+    padding: 10px;
+}
+
+#team-member{
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 5px
+
+}
+
+#team-member img{
+    max-width: 150px;
+    border-radius: 100%;
+}
+
+.call-to-action{
+    display: inline-block;
+    width: 180px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+
+}
+
+footer{
+    background-color: #45494d;
+    height: 70px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer div{
+    padding: 10px;
+    text-align: center;
+}
